@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\workshop.repository.interfaces\workshop.repository.interfaces.csproj" />
+    <ProjectReference Include="..\workshop.repository\workshop.repository.csproj" />
+    <ProjectReference Include="..\workshop.service.interfaces\workshop.service.interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\workshop.data.models\workshop.data.models.csproj" />
+    <ProjectReference Include="..\workshop.data\workshop.data.csproj" />
+    <ProjectReference Include="..\workshop.repository.interfaces\workshop.repository.interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
