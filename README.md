@@ -1,6 +1,6 @@
 # C# API Layers
 
-A simple example of how to create a C# API with multiple layers.  Layers have been broken down into various projects in this extreme example!
+A simple example of how you might setup a C# API with multiple layers.  
 
 ## Description
 
@@ -11,7 +11,7 @@ The project is a very simple calculator queueing API with the following endpoint
 | GET   | /         | Get all calculations
 | GET   | /queued   | Get all queued calculations (the result property is null)|
 | GET   | /queue/a/b| Queue a calculation passing in 2 numbers in the path a/b|
-| GET   | /calculate| Calculate anything with a null Result |
+| GET   | /calculate| Calculate anything in the queue with a null result |
 
 
 ## Setup (workshop.wwwapi Project)
